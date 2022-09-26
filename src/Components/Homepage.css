@@ -1,0 +1,25 @@
+.fredrik {
+    width: 600px;
+    display: flex;
+    margin-top: 40px;
+    float: right;
+    position: absolute;
+    margin-left: 313px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    object-fit: contain;
+    width: 1200px;
+    object-fit: contain;
+    justify-content: center;
+    gap: 25px;
+}
+
+.grid-container {
+    display: grid;
+    height: 3000px;
+}

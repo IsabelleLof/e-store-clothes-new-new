@@ -1,0 +1,139 @@
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.home-button {
+    align-items: center;
+    font-weight: 300;
+    font-size: large;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #b97008;
+    background-color: #b97008;
+    margin-left: 60px;
+    margin-top: 6px;
+    display: flex;
+}
+
+.navbar-links-container {
+    display: flex;
+    list-style: none;
+    gap: 38px;
+    font-size: 14px;
+}
+
+.margin-shoppingbag {
+    margin-right: 41px;
+}
+
+.search-favo-cart-container {
+    display: flex;
+    list-style: none;
+    gap: 38px;
+    font-size: 14px;
+}
+
+.search-input {
+    height: 20px;
+    align-self: center;
+    border-radius: 20px;
+    border: ridge;
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+.topnav {
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+    gap: 38px;
+    font-size: 14px;
+    justify-content: center;
+    color: black;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hamburger-icon {
+    margin: auto 0;
+    cursor: pointer;
+    display: block;
+    margin-top: -40px;
+}
+
+.hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu {
+    display: block;
+    position: absolute;
+    height: calc(100vh - 50px);
+    left: 0;
+    list-style: none;
+    margin-left: -10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    opacity: 50%;
+    padding-top: 15px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navbar-links-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .topnav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+
+
