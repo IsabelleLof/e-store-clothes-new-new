@@ -8,7 +8,6 @@ export default function Product (props) {
     const [like, setLike] = useState('♡');
 
     //const [addNewFavoriteProduct, setAddNewFavoriteProduct] = useState('products');
-
     const newFavoriteProducts = props.product.id;
 
     useEffect(() => {
